@@ -1,0 +1,17 @@
+{
+  "full-name": "Cody Duskin",
+  "description": "He is neat!",
+  "pets": [
+    {
+      "name": "Joey",
+      "color": "brown",
+      "kind": "dog"
+    }
+  ],
+  "favorites": {
+    "color": "gray",
+    "number": 8,
+    "animal": "wolf",
+    "video": "https://www.youtube.com/watch?v=82m1PXEweho"
+  }
+}
