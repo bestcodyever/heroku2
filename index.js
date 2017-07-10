@@ -1,7 +1,7 @@
-var express = require('express')
-var server = express()
-var me = require('./public/me.json')
-
+const express = require('express')
+const server = express()
+const me = require('./public/me.json')
+const port = process.env.PORT || 8080
 server.get('/cody', function (request, response) {
     response.json(me)
 })
@@ -11,4 +11,4 @@ server.get('*', function(request, response){
   response.send("Error, Error, Error")
 })
 
-server.listen(3000)
+server.listen(port)
